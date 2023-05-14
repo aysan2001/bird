@@ -1,0 +1,138 @@
+*, body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.beden {
+  position: absolute;
+  top: 250px;
+  left: 530px;
+  width: 14%;
+  height: 170px;
+  background-color: orangered;
+  -webkit-clip-path: circle(49.3% at 50% 12%);
+          clip-path: circle(49.3% at 50% 12%);
+  transform: rotate(-8deg);
+}
+
+.quyruq {
+  position: absolute;
+  top: 245px;
+  right: 20px;
+  width: 120px;
+  height: 90px;
+  background-color: black;
+  -webkit-clip-path: polygon(88% 11%, 0 45%, 100% 49%);
+          clip-path: polygon(88% 11%, 0 45%, 100% 49%);
+  transform: rotate(2deg);
+  animation: quyruq 2s forwards;
+}
+
+@keyframes quyruq {
+  from {
+    right: 20px;
+  }
+  to {
+    right: 790px;
+  }
+}
+.qened {
+  position: absolute;
+  top: 22px;
+  left: 540px;
+  width: 230px;
+  height: 250px;
+  background-color: gray;
+  transform: rotate(-7deg);
+  -webkit-clip-path: ellipse(32% 25% at 34% 0%);
+          clip-path: ellipse(32% 25% at 34% 0%);
+  animation: qened 2s forwards;
+}
+
+@keyframes qened {
+  from {
+    top: 22px;
+  }
+  to {
+    top: 246px;
+  }
+}
+.ayaq {
+  position: absolute;
+  top: 600px;
+  left: 610px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(82, 212, 255);
+  -webkit-clip-path: polygon(31% 35%, 9% 52%, 50% 65%, 18% 64%, 4% 50%, 32% 25%);
+          clip-path: polygon(31% 35%, 9% 52%, 50% 65%, 18% 64%, 4% 50%, 32% 25%);
+  animation: ayaq 3s forwards;
+}
+
+@keyframes ayaq {
+  from {
+    top: 600px;
+  }
+  to {
+    top: 330px;
+  }
+}
+.dimdik {
+  position: absolute;
+  top: 350px;
+  left: 680px;
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  -webkit-clip-path: ellipse(25% 8% at 46% 100%);
+          clip-path: ellipse(25% 8% at 46% 100%);
+  animation: dimdik 3s forwards;
+}
+
+@keyframes dimdik {
+  from {
+    top: 350px;
+  }
+  to {
+    top: 150px;
+  }
+}
+.bas {
+  position: absolute;
+  top: 220px;
+  left: 230px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50%;
+  animation: bas 3s forwards;
+}
+.bas .goz {
+  position: absolute;
+  top: 14px;
+  left: 25px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.bas .bebek {
+  position: absolute;
+  top: 19px;
+  left: 30px;
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+@keyframes bas {
+  from {
+    left: 230px;
+  }
+  to {
+    left: 650px;
+  }
+}/*# sourceMappingURL=style.css.map */
